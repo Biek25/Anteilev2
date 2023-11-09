@@ -4,24 +4,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JavaScript Input/Output</title>
+    <title>Anteil Berechnen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        p {
+            margin: 8px 0;
+            color: #555;
+        }
+
+        strong {
+            color: #333;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>JavaScript Input/Output</h1>
+    <h1>Dein Rechner des Vertrauens</h1>
 
     <label for="inputMenge">Menge:</label>
     <input type="text" id="inputMenge">
-    <br>
 
     <label for="inputPreis">Preis:</label>
     <input type="text" id="inputPreis">
-    <br>
 
     <label for="inputAnzahl">Anzahl Personen:</label>
     <input type="text" id="inputAnzahl">
-    <br>
 
     <button onclick="calculateShares()">Berechnen</button>
 
