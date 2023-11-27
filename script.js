@@ -23,7 +23,7 @@ function calculateShares() {
         let name = prompt("Geben Sie den Namen ein: ");
         Personen.push(name);
 
-        let preis = parseInt(prompt(`Geben Sie den Preis für ${name} ein: `));
+        let preis = parseFloat(prompt(`Geben Sie den Preis für ${name} ein: `));
         PreisProPerson.push(preis);
     }
 
