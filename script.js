@@ -2,8 +2,8 @@
 
 function calculateShares() {
     // Eingabefelder abrufen
-    let Menge = document.getElementById('inputMenge').value;
-    let Preis = document.getElementById('inputPreis').value;
+    let Menge = parseFloat(document.getElementById('inputMenge').value);
+    let Preis = parseFloat(document.getElementById('inputPreis').value);
     let AnzahlPersonen = document.getElementById('inputAnzahl').value;
 
     // Ausgaben auf der Seite aktualisieren
